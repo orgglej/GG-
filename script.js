@@ -6,7 +6,7 @@ function clearResult() {
     document.getElementById('result').value = '';
 }
 
-function calculateResult("Ja existe um usuario coom esse calculo") {
+function calculateResult(carregando...) {
     let result = eval(document.getElementById('result').value);
     document.getElementById('result').value = result;
 }
